@@ -9,4 +9,5 @@ npm install
 npm run serve
 ```
 
-[들어가기](https://github.com/yoonhona/todomvc_vuejs/blob/master/docs/intro.md)
+### 정리
+1. [들어가기](https://github.com/yoonhona/todomvc_vuejs/blob/master/docs/intro.md)
