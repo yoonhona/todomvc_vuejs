@@ -1,10 +1,10 @@
-todo mvc 예제를 통해 Vue.js 기본 적인 개념을 파악하고,    
+[todo mvc 예제를](https://kr.vuejs.org/v2/examples/todomvc.html) 통해 Vue.js 기본 적인 개념을 파악하고,    
 단일 컴포넌트로 되어 있는 예제 프로그램을    
 부모 자식간의 컴포넌트 구조로 변경하면서 컴포넌트간 통신에 대해서도 파악해본다.
 
 * [VueCLI](https://cli.vuejs.org/) 혹은 webpack을 통한 [SFC](https://kr.vuejs.org/v2/guide/single-file-components.html) 개발 환경이라 가정한다.
 
-* 기본 개념에 대한 내용은 [공식 Document(한글번역판)](https://kr.vuejs.org/v2/guide/)을 참고 한다.
+* 개념에 대한 내용은 [공식 Document(한글번역판)](https://kr.vuejs.org/v2/guide/)을 참고 한다.
 
 ### 예제에 사용된 기본 개념 파악하기
  \<template>
@@ -39,5 +39,5 @@ todo mvc 예제를 통해 Vue.js 기본 적인 개념을 파악하고,
         ```
     * [v-if](https://kr.vuejs.org/v2/guide/conditional.html#v-if), [v-show](https://kr.vuejs.org/v2/guide/conditional.html#v-show)
         화면에서 엘리먼트롤 조건부로 표시
-        
+
 \</template> 
