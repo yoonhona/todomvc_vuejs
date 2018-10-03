@@ -10,4 +10,4 @@ npm run serve
 ```
 
 ### 정리
-1. [들어가기](https://github.com/yoonhona/todomvc_vuejs/blob/master/docs/intro.md)
+1. [들어가기 - 기본개념](https://github.com/yoonhona/todomvc_vuejs/blob/master/docs/intro.md)

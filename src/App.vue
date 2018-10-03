@@ -9,7 +9,7 @@
                    v-on:keyup.enter="addTodo">
         </header>
         <section class="main" v-show="todos.length" v-cloak>
-            <input id="toggle-all" class="toggle-a`ll" type="checkbox" v-model="allDone">
+            <input id="toggle-all" class="toggle-all" type="checkbox" v-model="allDone">
             <label for="toggle-all"></label>
             <ul class="todo-list">
                 <li v-for="todo in filteredTodos"
@@ -47,7 +47,7 @@
 </template>
 
 <script>
-import { todoStorage, filters } from 'v-on:/util/api';
+import { todoStorage, filters } from '@/util/api';
 
 export default {
   name: 'app',
@@ -69,6 +69,7 @@ export default {
   },
   computed: {
     filteredTodos: function() {
+      debugger
       return filters[this.visibility](this.todos);
     },
     remaining: function() {
